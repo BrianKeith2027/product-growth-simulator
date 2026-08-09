@@ -2,6 +2,14 @@
 
 A data-driven growth modeling platform that simulates product scaling scenarios, quantifies trade-offs across key growth levers, and generates stakeholder-ready dashboards for strategic decision-making.
 
+> ### 📍 Project Status — In Active Development
+>
+> **Committed so far:** `src/__init__.py`, `src/analysis/__init__.py`, `src/analysis/sensitivity.py`, `src/analysis/tradeoff_matrix.py`, `src/analysis/unit_economics.py`, `src/simulation/__init__.py`, `src/simulation/funnel_model.py`, `src/simulation/growth_engine.py`
+>
+> **Still to be implemented:** `src/data/generate_synthetic.py`, `src/app/dashboard.py`, `docker-compose.yml`, `scenarios.yaml`, `lever_defaults.yaml`, `preprocess.py`, `cohort_simulator.py`, `scenario_comparison.py`, `kpi_cards.py`, `charts.py`, `01_growth_eda.ipynb`, `test_growth_engine.py`, `test_sensitivity.py`, `conftest.py`
+>
+> The architecture, setup, and usage sections below describe the target design for this project. Components listed as still to be implemented are tracked in the Roadmap at the end of this README — some setup or usage commands will not run until those land.
+
 ## 📋 Overview
 
 Scaling a product 10x requires hard choices — invest in acquisition or retention? Increase pricing or expand free tiers? Hire engineers or marketers? This project provides a simulation engine that models compounding growth dynamics across acquisition, activation, retention, revenue, and referral (AARRR pirate metrics), letting product leaders explore "what if" scenarios backed by data rather than gut feel.
@@ -197,3 +205,34 @@ product-growth-simulator/
         - ## 📄 License
        
         - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🗺️ Roadmap
+
+**Built**
+
+- [x] `src/__init__.py`
+- [x] `src/analysis/__init__.py`
+- [x] `src/analysis/sensitivity.py`
+- [x] `src/analysis/tradeoff_matrix.py`
+- [x] `src/analysis/unit_economics.py`
+- [x] `src/simulation/__init__.py`
+- [x] `src/simulation/funnel_model.py`
+- [x] `src/simulation/growth_engine.py`
+
+**Planned**
+
+- [ ] `src/data/generate_synthetic.py`
+- [ ] `src/app/dashboard.py`
+- [ ] `docker-compose.yml`
+- [ ] `scenarios.yaml`
+- [ ] `lever_defaults.yaml`
+- [ ] `preprocess.py`
+- [ ] `cohort_simulator.py`
+- [ ] `scenario_comparison.py`
+- [ ] `kpi_cards.py`
+- [ ] `charts.py`
+- [ ] `01_growth_eda.ipynb`
+- [ ] `test_growth_engine.py`
+- [ ] `test_sensitivity.py`
+- [ ] `conftest.py`
+
